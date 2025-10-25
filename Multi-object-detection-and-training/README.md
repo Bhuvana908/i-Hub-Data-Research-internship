@@ -1,4 +1,3 @@
-cat <<EOL > README.md
 # YOLOv8-Multi-Image-Object-Detection-and-Segmentation
 
 This project demonstrates **multi-image object detection and segmentation** using YOLOv8, along with evaluation of key performance metrics on a validation set.
@@ -46,62 +45,22 @@ The project highlights:
 
 1. Download or clone this repository.  
 2. Download the full dataset from Kaggle:  
-   [Vehicle Dataset for YOLO](https://www.kaggle.com/datasets/nadinpethiyagoda/vehicle-dataset-for-yolo)  
+   [Vehicle Dataset for YOLO](https://www.kaggle.com/datasets/nadinpethiyagoda/vehicle-dataset-for-yolo)
 3. Place the dataset in the following structure:
 
-\`\`\`
-dataset/
- ├── train/
- │    ├── images/
- │    └── labels/
- └── valid/
-      ├── images/
-      └── labels/
-\`\`\`
+   dataset/
+├── train/
+│ ├── images/
+│ └── labels/
+└── valid/
+├── images/
+└── labels/
 
-4. Install dependencies:
-
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
-
-5. Run detection and segmentation on sample images:
+4. Run detection and segmentation on sample images:
 
 \`\`\`bash
 python main.py
 \`\`\`
 
-6. Check **runs/** folder for detection, segmentation, and training results.  
-
----
-
-## 📸 Sample Outputs
-
-**Detection Example:**
-
-![Detection Example](runs/Detection/img1.jpg)
-
-**Segmentation Example:**
-
-![Segmentation Example](runs/Segmentation/img1.jpg)
-
----
-
-## 🔑 Learnings & Takeaways
-
-- Preparing YOLOv8 datasets for multi-image detection and segmentation  
-- Running detection and segmentation pipelines with pretrained models  
-- Understanding and interpreting **Precision, Recall, F1-Score, mAP, and Confusion Matrix**  
-- Visualizing results and model performance on validation datasets  
-
----
-
-## 📬 Contact
-
-If you’d like to connect or collaborate:  
-
-- **LinkedIn:** [LinkedIn Profile](#)  
-- **GitHub:** [GitHub Profile](#)  
-
-EOL
+5. Check **runs/** folder for detection, segmentation, and training results.
 
