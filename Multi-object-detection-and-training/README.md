@@ -63,7 +63,7 @@ python main.py
 ## 📸 Sample Outputs
 
 ## Detection-Example
-![Detection](03137_Nissan NV Passenger Van 2012.jpg)
+![Detection](runs/detect/03137_Nissan NV Passenger Van 2012.jpg)
 
 ## Segmentation-Example
 ![Segmentation](2007_007211.jpg)
