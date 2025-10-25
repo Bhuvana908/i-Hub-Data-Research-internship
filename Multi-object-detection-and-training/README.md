@@ -86,6 +86,13 @@ The F1–Confidence curve shows how the model’s F1 score (balance between prec
 
 In this graph: The overall F1 score peaks at 0.88 when the confidence is around 0.489, indicating this is the optimal threshold for best detection performance across all classes.
 
+## 🎯 Precision–Confidence Curve
+
+![Precision](runs/Results-after-training/Evaluation-metrics/BoxP_curve.png)
+
+This curve shows how precision (the proportion of correct detections) changes as the model’s confidence threshold increases.
+Higher confidence thresholds reduce false positives but may miss some objects. The model achieves near-perfect precision (≈1.0) at a confidence level of 1.0, indicating strong accuracy across all vehicle classes.
+
 
 ## 🔑 Learnings & Takeaways
 
