@@ -67,8 +67,14 @@ python main.py
 
 ## 📸 Results Preview
 
+## Original Image
+
 ![Original-image](bus.jpg)
+
+## Detected Image
 ![Detected-image](runs/detect/bus.jpg)
+
+## Segmented Image
 ![Segmented-image](runs/segment/bus.jpg)
 
 ---
