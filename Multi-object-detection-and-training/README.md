@@ -24,8 +24,7 @@ The project highlights:
 ## 🛠 Tools Used
 
 - **Python & Ultralytics YOLOv8** → For object detection and segmentation  
-- **OpenCV & NumPy** → For image processing and handling  
-- **Matplotlib / Ultralytics plots** → For metrics visualization  
+ 
 
 ---
 
@@ -67,10 +66,6 @@ python main.py
 
 ## Segmentation-Example
 ![Segmentation](runs/Segmentation/2007_007211.jpg)
-
-## Metrics
-![F1](runs/Results-after-training/Evaluation-metrics/BoxF1_curve.png)
-![Recall](runs/Results-after-training/Evaluation-metrics/BoxR_curve.png)
 
 ---
 
