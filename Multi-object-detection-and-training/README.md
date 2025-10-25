@@ -58,3 +58,27 @@ python main.py
 
 5. Check **runs/** folder for detection, segmentation, and training results.
 
+---
+
+## 📸 Sample Outputs
+
+## Detection-Example
+![Detection](03137_Nissan NV Passenger Van 2012.jpg)
+
+## Segmentation-Example
+![Segmentation](2007_007211.jpg)
+
+## Metrics
+![F1](BoxF1_curve.png)
+![Recall](BoxR_curve.png)
+
+---
+
+
+## 🔑 Learnings & Takeaways
+
+- **Preparing YOLOv8 datasets for multi-image detection and segmentation**   
+- **Running detection and segmentation pipelines with pretrained models**
+- **Understanding and interpreting Precision, Recall, F1-Score, mAP, and Confusion Matrix**
+- **Visualizing results and model performance on validation datasets**
+
