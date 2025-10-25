@@ -80,7 +80,7 @@ After training the YOLOv8 model, several evaluation metrics and graphs are gener
 
 ## 📈F1-Confidence Curve
 
-!(F1)(runs/Results-after-training/Evaluation-metrics/BoxF1_curve.png)
+![F1](runs/Results-after-training/Evaluation-metrics/BoxF1_curve.png)
 
 The F1–Confidence curve shows how the model’s F1 score (balance between precision and recall) changes with different confidence thresholds.
 
