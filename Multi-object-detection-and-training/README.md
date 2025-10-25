@@ -63,14 +63,14 @@ python main.py
 ## 📸 Sample Outputs
 
 ## Detection-Example
-![Detection](runs/detect/03137_Nissan NV Passenger Van 2012.jpg)
+![Detection](runs/Detection/03137_Nissan NV Passenger Van 2012.jpg)
 
 ## Segmentation-Example
-![Segmentation](2007_007211.jpg)
+![Segmentation](runs/Segmentation/2007_007211.jpg)
 
 ## Metrics
-![F1](BoxF1_curve.png)
-![Recall](BoxR_curve.png)
+![F1](runs/Results-after-training/Evaluation-metrics/BoxF1_curve.png)
+![Recall](runs/Results-after-training/Evaluation-metrics/BoxR_curve.png)
 
 ---
 
