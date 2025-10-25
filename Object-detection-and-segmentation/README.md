@@ -62,7 +62,7 @@ pip install ultralytics
 # Run the main script
 python main.py
 
-```bash
+```
 ---
 
 ## 📸 Results Preview
