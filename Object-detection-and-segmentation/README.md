@@ -74,8 +74,8 @@ python main.py
 ---
 
 ## Learnings from the project:
-echo "1. Loading and using pre-trained YOLOv8 models"
-echo "2. Performing object detection and segmentation on images"
-echo "3. Saving and organizing prediction outputs"
-echo "4. Understanding workflow for deep learning image projects"
+-Loading and using pre-trained YOLOv8 models"
+-Performing object detection and segmentation on images"
+-Saving and organizing prediction outputs"
+-Understanding workflow for deep learning image projects"
 
