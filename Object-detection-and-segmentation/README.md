@@ -52,7 +52,17 @@ pip install ultralytics
 
 # Run the main script
 python main.py
+# Clone the repository
+git clone https://github.com/your-username/object-detection-and-segmentation.git
+cd object-detection-and-segmentation
 
+# Install dependencies
+pip install ultralytics
+
+# Run the main script
+python main.py
+
+```bash
 ---
 
 ## 📸 Results Preview
