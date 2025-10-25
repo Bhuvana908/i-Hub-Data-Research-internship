@@ -74,6 +74,18 @@ python main.py
 
 ---
 
+## 📊 Evaluation Metrics & Graph Analysis
+
+After training the YOLOv8 model, several evaluation metrics and graphs are generated to measure detection and segmentation performance. Below is a brief explanation of each:
+
+## 📈F1-Confidence Curve
+
+!(F1)(runs/Results-after-training/Evaluation-metrics/BoxF1_curve.png)
+
+The F1–Confidence curve shows how the model’s F1 score (balance between precision and recall) changes with different confidence thresholds.
+
+In this graph: The overall F1 score peaks at 0.88 when the confidence is around 0.489, indicating this is the optimal threshold for best detection performance across all classes.
+
 
 ## 🔑 Learnings & Takeaways
 
