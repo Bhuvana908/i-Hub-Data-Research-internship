@@ -48,7 +48,7 @@ The project highlights:
    [Vehicle Dataset for YOLO](https://www.kaggle.com/datasets/nadinpethiyagoda/vehicle-dataset-for-yolo)
 3. Place the dataset in the following structure:
 
-![Structure](dataset-structure)
+![Structure](dataset-structure.png)
 
 4. Run detection and segmentation on sample images:
 
