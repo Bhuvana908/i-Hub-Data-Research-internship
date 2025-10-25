@@ -52,9 +52,9 @@ The project highlights:
 
 4. Run detection and segmentation on sample images:
 
-\`\`\`bash
+```bash
 python main.py
-\`\`\`
+```
 
 5. Check **runs/** folder for detection, segmentation, and training results.
 
