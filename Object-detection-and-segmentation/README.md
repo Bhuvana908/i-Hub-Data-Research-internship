@@ -52,3 +52,20 @@ pip install ultralytics
 
 # Run the main script
 python main.py
+
+---
+
+## 📸 Results Preview
+
+![Original-image](bus.jpg)
+![Detected-image](runs/detect/bus.jpg)
+![Segmented-image](runs/segment/bus.jpg)
+
+---
+
+## Learnings from the project:
+echo "1. Loading and using pre-trained YOLOv8 models"
+echo "2. Performing object detection and segmentation on images"
+echo "3. Saving and organizing prediction outputs"
+echo "4. Understanding workflow for deep learning image projects"
+
