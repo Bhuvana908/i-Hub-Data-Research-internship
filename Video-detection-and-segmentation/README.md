@@ -34,10 +34,7 @@ The project highlights:
 
 ## 📂 Project Files
 
-- **main.py** → Main Python script to run detection and segmentation   
-- **frames/** → Extracted video frames  
-- **processed/detect/** → Detection output frames  
-- **processed/segment/** → Segmentation output frames   
+- **main.py** → Main Python script to run detection and segmentation     
 - **requirements.txt** → List of dependencies  
 - **README.md** → Project documentation  
 
