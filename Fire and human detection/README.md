@@ -59,3 +59,9 @@ The dataset is **not included in this repository** due to GitHub file size limit
 - Classes:
   - 0 → Fire
   - 1 → Human
+ 
+  ---
+
+  # 📸 Sample Outputs
+
+  ![Detection](Outputs/output.mp4)
