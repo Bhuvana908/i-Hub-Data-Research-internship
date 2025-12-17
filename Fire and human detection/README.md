@@ -65,3 +65,39 @@ The dataset is **not included in this repository** due to GitHub file size limit
   # 📸 Sample Outputs
 
   ![Detection](Outputs/output.mp4)
+
+  ![Detection](Outputs/output1.mp4)
+
+  # 📊 Evaluation Metrics & Graph Analysis
+
+  After training the YOLOv8 model, multiple evaluation metrics and graphs were generated to assess detection performance.
+
+  **🔹 F1–Confidence Curve**
+
+  ![F1](Results/BoxF1_curve.png)
+
+  **🔹 Precision–Confidence Curve**
+
+  ![Precision](Results/BoxP_curve.png)
+
+
+  **🔹 Precision–Recall Curve**
+
+  ![PR](Results/BoxPR_curve.png)
+
+
+  **🔹 Recall–Confidence Curve**
+
+  ![Recall](Results/BoxR_curve.png)
+
+
+  **🔹 Confusion Matrix**
+
+  ![Confusion](Results/confusion_matrix.png)
+  ![Confusion](Results/confusion_matrix_normalized.png)
+
+  **Training & Validation Metrics Overview**
+
+  ![Results](Results/results.png)
+  
+
