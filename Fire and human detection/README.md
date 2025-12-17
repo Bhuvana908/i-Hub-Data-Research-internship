@@ -114,6 +114,6 @@ After training the YOLOv8 model, multiple evaluation metrics and graphs were gen
 
 # 👤 Author
 
-**Kadasani Bhuvana Reddy**
-Computer Science Engineering (CSE)
+**Kadasani Bhuvana Reddy** </br>
+Computer Science Engineering (CSE) </br>
 Fire–Human Detection System using YOLOv8
