@@ -60,7 +60,7 @@ The dataset is **not included in this repository** due to GitHub file size limit
   - 0 → Fire
   - 1 → Human
  
-  ---
+---
 
 # 📸 Sample Outputs
 
@@ -76,45 +76,32 @@ After training the YOLOv8 model, multiple evaluation metrics and graphs were gen
 
 ![F1](Results/BoxF1_curve.png)
 
-This curve shows how the F1 score varies with confidence thresholds.
-The peak F1 score indicates the optimal confidence level for balanced fire and human detection.
 
 **🔹 Precision–Confidence Curve**
 
 ![Precision](Results/BoxP_curve.png)
 
-As confidence increases, false positives decrease.
-High precision at higher confidence values shows the model reliably detects real fire incidents and humans.
 
 **🔹 Precision–Recall Curve**
 
 ![PR](Results/BoxPR_curve.png)
 
-This curve illustrates the trade-off between precision and recall for each class.
-The model achieves strong mAP@0.5, indicating accurate detection of fire and humans.
 
 **🔹 Recall–Confidence Curve**
 
 ![Recall](Results/BoxR_curve.png)
 
-High recall at lower confidence levels shows the model detects most fire incidents, even in complex scenes.
 
 **🔹 Confusion Matrix**
 
 ![Confusion](Results/confusion_matrix.png)
 ![Confusion](Results/confusion_matrix_normalized.png)
 
-The confusion matrix highlights class-wise prediction accuracy.
-Fire and Human classes show strong diagonal values, with minimal misclassification.
 
 **Training & Validation Metrics Overview**
 
 ![Results](Results/results.png)
 
-This plot displays training and validation performance across epochs:
-- **Loss Curves**: Consistent decrease indicates stable learning
-- **Precision & Recall**: Continuous improvement over epochs
-- **mAP@50 & mAP@50–95**: Strong generalization ability 
   
 ---
 
