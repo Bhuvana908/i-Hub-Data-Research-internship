@@ -105,6 +105,21 @@ After training the YOLOv8 model, multiple evaluation metrics and graphs were gen
   
 ---
 
+# 🔍 Explanation for Lower Fire Detection Accuracy
+
+The fire class shows comparatively lower accuracy than human detection due to real-world visual challenges and dataset limitations, which are common in fire detection tasks.
+
+## 🔥 Key Reasons
+
+- **No fixed shape:** Fire is a highly dynamic object with irregular boundaries that change frame-to-frame, making it harder for YOLO to learn stable spatial     features.
+- **Visual similarity with background:** Fire often overlaps with bright backgrounds such as sunlight, lamps, reflections, or warm-colored objects, causing confusion    between fire and background.
+- **Small or distant fire regions:** Flames often occupy small pixel areas, which are difficult for object detectors to localize accurately.
+- **Lighting and smoke variations:** Fire appearance varies significantly across indoor/outdoor, day/night, and smoke-covered scenes.
+
+From the **confusion matrix**, it is evident that many fire instances are misclassified as background, indicating low contrast and ambiguous visual features rather than model failure.
+
+---
+
 # 🔑 Learnings & Takeaways
 
 - Building a **custom YOLOv8 dataset for fire detection**
